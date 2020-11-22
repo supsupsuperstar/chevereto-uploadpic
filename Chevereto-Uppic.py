@@ -18,9 +18,9 @@ def upload(path):
 
     data = {
         "source": img,
-        "url": 'http://starry2020.f3322.net:1212/api/1/upload',     #请求URL
+        "url": 'http://********/api/1/upload',     #请求URL
         "action": "upload",
-        "key": "b8bcf10c551f29bde6e816cc8c3ecfe6",  #API v1 的密钥
+        "key": "*******",  #API v1 的密钥
         "format":'json' #设置返回格式 [value：json(默认值)，redirect，txt]
     }
     res = requests.post(data['url'], data=data).json()
